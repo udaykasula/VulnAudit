@@ -1,0 +1,7 @@
+host,os,timestamp,id,title,severity,cvss,remediation,evidence
+uknet,windows,2025-09-14T12:59:58,RUNTIME-ERROR,Runtime error while gathering checks,Low,0.0,Inspect debug.json; run with Admin/sudo if needed.,"Traceback (most recent call last):
+  File ""C:\Users\udayk\OneDrive\Desktop\vulreport\main.py"", line 82, in main
+    raw = checks_windows.gather()
+          ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'checks_windows' has no attribute 'gather'
+"
